@@ -1,0 +1,10 @@
+#Demonstrate Common slicing operations.
+
+seq = list(range(10))
+
+if __name__ == '__main__':
+    print("Orignal: ", seq)
+    print ("First 3:", seq [:3])
+    print("Last 3:" ,seq[-3:])
+    print("Every 2nd:", seq[::2])
+    print("Reversed:", seq[::-1])
